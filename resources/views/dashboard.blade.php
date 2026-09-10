@@ -12,7 +12,7 @@
                     <button
                         @click="scan()"
                         :disabled="loading"
-                        class="inline-flex text-b items-center px-6 py-3 bg-indigo-600 border border-transparent rounded-md font-semibold text-sm uppercase tracking-widest hover:bg-indigo-700 focus:outline-none disabled:opacity-50"
+                        class="inline-flex items-center px-6 py-3 bg-gray-200 border border-transparent rounded-md font-semibold text-sm uppercase tracking-widest hover:bg-gray-300 focus:outline-none disabled:opacity-50"
                     >
                         <span x-show="!loading">Scan kaart</span>
                         <span x-show="loading">Bezig met scannen...</span>

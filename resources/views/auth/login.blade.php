@@ -13,7 +13,7 @@
                     inputmode="numeric"
                     pattern="[0-9]*"
                     maxlength="1"
-                    class="digit-box w-7 h-14 text-center text-2xl border-gray-300 rounded-md focus:border-indigo-500 focus:ring-indigo-500"
+                    class="digit-box w-32 h-14 text-center text-2xl border-gray-300 rounded-md focus:border-indigo-500 focus:ring-indigo-500"
                     autocomplete="off"
                 >
             @endfor
